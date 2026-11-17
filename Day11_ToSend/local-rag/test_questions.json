@@ -1,0 +1,146 @@
+[
+  {
+    "id": "q01",
+    "question": "What is the maximum number of remote work days per week?",
+    "expected_answer": "According to the Employee Handbook, eligible employees who have completed their 6-month probationary period may work remotely up to 3 days per week with manager approval (1 day per week during probation). Additionally, in the March 2026 leadership meeting, an update was approved to allow up to 4 remote days per week starting in Q3 2026.",
+    "source_document": "company_handbook.pdf",
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q02",
+    "question": "What is the annual professional development learning budget for full-time employees, and does unused budget carry over to the next year?",
+    "expected_answer": "Every full-time employee receives an annual professional development budget of €2,000 (pre-approved by their manager via the NovaLearn portal). It resets on January 1 each year and does not carry over.",
+    "source_document": "company_handbook.pdf",
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q03",
+    "question": "What were NovaTech Solutions' Annual Recurring Revenue (ARR) and Net Revenue Retention (NRR) at the end of Q1 2026?",
+    "expected_answer": "At the end of Q1 2026, Annual Recurring Revenue (ARR) reached EUR 18.2 million (up 23% year-over-year from EUR 14.8 million in Q1 2025), and Net Revenue Retention (NRR) was 112% (up from 108% in Q4 2025).",
+    "source_document": "quarterly_report_q1_2026.pdf",
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q04",
+    "question": "What are the API rate limits (requests per minute, burst limit, and daily maximum) for the Starter, Professional, and Enterprise tiers?",
+    "expected_answer": "Starter tier allows 100 requests/minute, 10 requests/second burst, and 50,000 requests/day. Professional tier allows 1,000 requests/minute, 50 requests/second burst, and 500,000 requests/day. Enterprise tier allows 5,000 requests/minute, 200 requests/second burst, and an unlimited daily maximum.",
+    "source_document": "product_guide.pdf",
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q05",
+    "question": "Within what timeframes must NovaTech notify the DPO internally, the supervisory authority, and affected individuals after confirming a personal data breach?",
+    "expected_answer": "Internally, the Security Operations Lead must notify the DPO and General Counsel within 2 hours. If the breach poses a risk to individuals, the relevant supervisory authority must be notified within 72 hours under GDPR Article 33. If there is a high risk to affected individuals, they must be notified without undue delay and no later than 7 days after that determination.",
+    "source_document": "security_policy.pdf",
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q06",
+    "question": "Which CRM vendor did the leadership team select to replace Pipedrive, what was its 3-year TCO, and what was the target go-live date?",
+    "expected_answer": "The leadership team selected HubSpot Enterprise with a 3-year TCO of EUR 385K (including EUR 40K implementation), over Salesforce (EUR 780K) and Freshsales (EUR 240K), with a target go-live date of April 15, 2026.",
+    "source_document": "meeting_notes.pdf",
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q07",
+    "question": "Compare the Professional and Enterprise support tiers.",
+    "expected_answer": "Professional has support during extended business hours (06:00-22:00 CET, Monday to Friday), email support, live chat during business hours, and a 1 hour response time for critical issues (2 hours high, 8 hours medium, 24 hours low). Enterprise has 24/7 support including live chat and phone, a dedicated support manager, quarterly business reviews, and a 15 minute response time for critical issues (30 minutes high, 2 hours medium, 8 hours low).",
+    "source_document": "product_guide.pdf",
+    "difficulty": "medium",
+    "type": "comparison"
+  },
+  {
+    "id": "q08",
+    "question": "Compare the Shared Analytics Dashboard in NovaTech ProjectHub versus NovaTech Insight.",
+    "expected_answer": "In ProjectHub, the Shared Analytics Dashboard has 8 pre-built widgets, no custom widgets, ProjectHub-only data scope, a 30-minute refresh interval, PNG/PDF export, and no interactive drill-down, row-level security, embedding, or scheduled distribution. In Insight, it includes all 8 widgets plus 30+ visualization types, custom widget creation, all connected data sources, connector-based refresh intervals (up to real-time), interactive drill-down, row-level security, embedding, scheduled distribution, and cross-dashboard linking.",
+    "source_document": "product_guide.pdf",
+    "difficulty": "medium",
+    "type": "comparison"
+  },
+  {
+    "id": "q09",
+    "question": "What are the daily meal limits and maximum hotel nightly rates for domestic versus international business travel, and what pre-approvals are required for flights?",
+    "expected_answer": "Daily meal limits are €25 per day for domestic travel and €40 per day for international travel. Maximum hotel nightly rates are €150 for domestic travel and €200 for international travel. Any single flight booking exceeding €500 requires manager pre-approval via NovaExpense, and flights exceeding €2,000 require additional approval from the Finance department (business class requires VP-level pre-approval).",
+    "source_document": "company_handbook.pdf",
+    "difficulty": "medium",
+    "type": "synthesis"
+  },
+  {
+    "id": "q10",
+    "question": "Which three Enterprise accounts were flagged as at-risk for renewal in Q2-Q3 2026, what is each account's ARR and risk reason, and what mitigation actions were taken?",
+    "expected_answer": "The three at-risk Enterprise accounts (totaling EUR 420K ARR) are: (1) Gruber Manufacturing (EUR 178K ARR, June 2026 renewal) due to sponsor departure and a new CTO evaluating alternatives, mitigated by assigning a dedicated solutions architect; (2) Rheinland Utilities AG (EUR 148K ARR, July 2026 renewal) due to budget pressure and exploring a downgrade to Professional tier, mitigated by offering a 12-month commitment at a 10% discount; and (3) Alpen Logistics (EUR 94K ARR, May 2026 renewal) due to low adoption (32% seat utilization), mitigated by enrolling them in the adoption acceleration program with weekly check-ins and custom training.",
+    "source_document": "quarterly_report_q1_2026.pdf",
+    "difficulty": "medium",
+    "type": "synthesis"
+  },
+  {
+    "id": "q11",
+    "question": "Compare the acknowledgment times, response team assembly, and escalation rules for P1 (Critical) versus P2 (High) security incidents.",
+    "expected_answer": "P1 (Critical) incidents require acknowledgment within 15 minutes, full Incident Response Team (IRT) assembly within 30 minutes, notification of the CEO, General Counsel, and Board Security Committee within 1 hour, external forensic support within 2 hours if scope is undetermined, and customer notification within 4 hours if customer data was affected. P2 (High) incidents require acknowledgment and engagement of the Incident Commander and Security Operations Lead within 1 hour, Engineering Lead engagement within 2 hours, a preliminary impact assessment within 4 hours, CISO status updates every 2 hours, and automatic escalation to P1 if customer data was accessed.",
+    "source_document": "security_policy.pdf",
+    "difficulty": "medium",
+    "type": "comparison"
+  },
+  {
+    "id": "q12",
+    "question": "What is the total approved budget and cost breakdown for NovaTech Copilot, and how was the ML engineer hiring timeline phased in the March 2026 meeting?",
+    "expected_answer": "The total approved budget for NovaTech Copilot is EUR 1.2M, broken down into EUR 780K for personnel (4 ML engineers and 1 PM for 12 months), EUR 280K for GPU compute infrastructure, EUR 90K for external consulting and dataset licensing, and EUR 50K (5%) for contingency. Staffing was phased to start with 2 ML engineers in April (Q2) and ramp up to 4 ML engineers by July (Q3) once v3.2 stabilization is complete.",
+    "source_document": "meeting_notes.pdf",
+    "difficulty": "medium",
+    "type": "synthesis"
+  },
+  {
+    "id": "q13",
+    "question": "How did the employee password rotation frequency and minimum password length change between the Employee Handbook and the March 2026 Leadership Meeting Notes, and what exception applies to engineering infrastructure credentials?",
+    "expected_answer": "The Employee Handbook (Section 11) requires passwords of at least 14 characters rotated every 90 days. In the March 5, 2026 Leadership Meeting Notes, employee user account password rotation was extended from 90 days to 180 days (effective immediately) with a 16+ character minimum and no reuse of the last 10 passwords, while engineering infrastructure credentials (SSH keys, service accounts) remain on a 90-day rotation.",
+    "source_document": "meeting_notes.pdf",
+    "difficulty": "hard",
+    "type": "reasoning"
+  },
+  {
+    "id": "q14",
+    "question": "What pricing discrepancies exist between the Product Guide and the February 2026 Leadership Meeting Notes for NovaTech's subscription tiers?",
+    "expected_answer": "Both documents list the Starter tier at €29/user/month (with the Product Guide also noting €24/user/month billed annually and the Meeting Notes discussing a proposed increase to €35-€39/user/month in Q3 2026). However, for the Professional tier, the Product Guide lists €79/user/month (€66/user/month billed annually), whereas the February 2026 Meeting Notes state €59/user/month. For the Enterprise tier, the Product Guide states Custom pricing (minimum 50 users), whereas the Meeting Notes state €99/user/month with custom pricing above 200 seats.",
+    "source_document": "product_guide.pdf",
+    "difficulty": "hard",
+    "type": "reasoning"
+  },
+  {
+    "id": "q15",
+    "question": "Compare the Handling Requirements for Confidential versus Restricted data across encryption, access control, authentication, external sharing, endpoint retention, and internal breach notification.",
+    "expected_answer": "Both Confidential and Restricted data require AES-256 encryption at rest and TLS 1.3 in transit. Confidential data requires role-based access with manager approval, SSO + MFA, approved encrypted storage, NDA + CISO approval for external sharing, temporary endpoint retention up to 30 days, and internal breach notification to CISO + Legal within 4 hours. Restricted data requires named-individual + CISO approval (with background verification), SSO + MFA + hardware token, designated secure enclaves only, no external sharing except by CISO written authorization, prohibited endpoint retention, and internal breach notification to CISO + Legal + CEO within 1 hour.",
+    "source_document": "security_policy.pdf",
+    "difficulty": "hard",
+    "type": "comparison"
+  },
+  {
+    "id": "q16",
+    "question": "What inconsistencies exist between the Q1 2026 Leadership Meeting Notes and the Q1 2026 Quarterly Report regarding the Parque das Nacoes Lisbon office opening date, budget, and headcount?",
+    "expected_answer": "In the Q1 2026 Leadership Meeting Notes, the new 2,000 sqm Lisbon office in Parque das Nacoes was approved with an EUR 850K budget and initial capacity for 45 people, with occupancy originally targeted for April 1, 2026 and delayed to April 14, 2026 due to permit delays. In contrast, the Q1 2026 Quarterly Report states that the Parque das Nacoes Lisbon office opened on January 15, 2026 on schedule and under budget (with EUR 185K/0.19M in one-time setup costs in Q1), had 22 employees at the end of Q1 (18 Engineering, 4 Product & Design), and has capacity for up to 40 employees.",
+    "source_document": "quarterly_report_q1_2026.pdf",
+    "difficulty": "hard",
+    "type": "reasoning"
+  },
+  {
+    "id": "q17",
+    "question": "What is the company's position on remote work for contractors?",
+    "expected_answer": "The documents do not contain information about contractor remote work policies.",
+    "source_document": null,
+    "difficulty": "hard",
+    "type": "unanswerable"
+  },
+  {
+    "id": "q18",
+    "question": "What is the annual base salary range and stock option vesting schedule for newly hired L4 Senior Backend Engineers in Munich?",
+    "expected_answer": "The provided documents do not contain information about specific base salary ranges for L4 Senior Backend Engineers or the stock option vesting schedule.",
+    "source_document": null,
+    "difficulty": "hard",
+    "type": "unanswerable"
+  }
+]
