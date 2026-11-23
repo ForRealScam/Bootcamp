@@ -1,0 +1,82 @@
+{
+  "execution_summary": {
+    "start_time": "2026-11-23T16:44:58.756692",
+    "end_time": "2026-11-23T16:45:11.516908",
+    "duration_seconds": 12.76,
+    "total_events": 8
+  },
+  "events": [
+    {
+      "timestamp": "2026-11-23T16:44:58.756691",
+      "event_type": "CREW_START",
+      "agent": "System",
+      "details": {
+        "message": "Crew execution started"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T16:44:58.756691",
+      "event_type": "AGENT_INIT",
+      "agent": "Casting Director",
+      "details": {
+        "tools": [
+          "role_matcher",
+          "fetch_actor_database"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-11-23T16:44:58.756691",
+      "event_type": "AGENT_INIT",
+      "agent": "Schedule Coordinator",
+      "details": {
+        "tools": [
+          "actor_availability_checker"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-11-23T16:44:58.763191",
+      "event_type": "TASK_START",
+      "agent": "Casting Director",
+      "details": {
+        "task": "Find suitable actors"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T16:44:58.763191",
+      "event_type": "TASK_START",
+      "agent": "Schedule Coordinator",
+      "details": {
+        "task": "Check actor availability"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T16:45:11.516908",
+      "event_type": "TASK_COMPLETE",
+      "agent": "Casting Director",
+      "details": {
+        "status": "success",
+        "summary": "Find suitable actors for the lead role in the sci-fi..."
+      }
+    },
+    {
+      "timestamp": "2026-11-23T16:45:11.516908",
+      "event_type": "TASK_COMPLETE",
+      "agent": "Schedule Coordinator",
+      "details": {
+        "status": "success",
+        "summary": "Check the availability of every actor shortlisted by the Casting..."
+      }
+    },
+    {
+      "timestamp": "2026-11-23T16:45:11.516908",
+      "event_type": "CREW_END",
+      "agent": "System",
+      "details": {
+        "message": "Crew execution completed",
+        "duration_seconds": 12.76
+      }
+    }
+  ]
+}

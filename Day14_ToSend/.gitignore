@@ -1,0 +1,8 @@
+# Secrets - never commit
+.env
+.env.*
+!example.env
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
